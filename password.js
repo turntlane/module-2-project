@@ -3,18 +3,6 @@ const readline = require('readline').createInterface({
     output: process.stdout
   });
    
-//   readline.question('Type your password: ', (password) => {
-//       let sum = 'aaaaaaaaaa'
-//       for (i = 0; i < password.length; i++) {
-//           if (password[i] < sum.length) {
-//               console.log('Your password needs to be at least 10 characters!');
-//           }else {
-//               console.log('That is a strong password!');
-//           }
-//       }
-
-//     readline.close();
-//   });
 
 
 readline.question('Type your password: ', (password) => {
