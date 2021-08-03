@@ -59,9 +59,9 @@ console.log(me.greeter());
 
 function carFactory(make, model, year) {
   let car = {
-    make: 'Toyota',
-    model: 'Frontier',
-    year: 2008
+    make: make,
+    model: model,
+    year: year
   }
   if (year > 2018) {
     car.isNew = true;
@@ -71,4 +71,4 @@ function carFactory(make, model, year) {
   return car;
 }
 
-console.log(carFactory('Toyota', 'Frontier', 2008))
+console.log(carFactory('Toyota', 'sentra', 2008))
